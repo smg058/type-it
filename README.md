@@ -15,7 +15,7 @@
 You can install **Type-It** via npm:
 
 ```bash
-npm install type-it
+npm install @chayson/type-it
 ```
 Alternatively, you can include it directly in your project using a `<script>` tag.
 
