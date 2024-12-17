@@ -1,0 +1,22 @@
+{
+  "name": "@chayson/type-it",
+  "version": "1.1.0",
+  "description": "A JavaScript Library for creating dynamic typing effects.",
+  "main": "typeit.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smg058/type-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smg058/type-it/issues"
+  },
+  "scripts": {
+    "minify": "terser typeit.js --compress passes=2 --mangle --output typeit.min.js --source-map \"url='typeit.min.js.map'\""
+  },
+  "author": "Chayson Media Group",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.37.0"
+  },
+  "dependencies": {}
+}
