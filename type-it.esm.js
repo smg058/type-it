@@ -3,7 +3,7 @@
  * @version 2.0.0
  * @author Chayson Media Group (https://chayson.com/)
  * @license MIT
- * @module TypeIt
+ * @module TypeItEsm
  *
  * @description
  * Initializes dynamic typing effects with optional cursor animations for DOM elements.
@@ -64,7 +64,7 @@
  * - Customization via data attributes allows for script reuse without changes.
  * - Supports multiple `typeit` and `cursor` elements on a page.
  */
-export class TypeIt {
+export class TypeItEsm {
   constructor(element) {
     this.element = element;
     this.cursor = null;
@@ -162,7 +162,7 @@ export class Cursor {
 export function TypeSetup() {
   const typers = {};
   for (const e of document.getElementsByClassName('typeit')) {
-    typers[e.id] = new TypeIt(e);
+    typers[e.id] = new TypeItEsm(e);
   }
   for (const e of document.getElementsByClassName('typeit-stop')) {
     const owner = typers[e.dataset.owner];

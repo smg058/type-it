@@ -11,7 +11,7 @@
     "url": "https://github.com/smg058/type-it/issues"
   },
   "scripts": {
-    "minify": "terser typeit.js --compress passes=2 --mangle --output typeit.min.js --source-map \"url='typeit.min.js.map'\"",
+    "minify": "terser typeit.js --compress passes=2 --mangle --output type-it.esm.min.js --source-map \"url='typeit.min.js.map'\"",
     "min-new": "terser type-it.js --compress passes=2 --mangle --output type-it.min.js --source-map \"url='type-it.min.js.map'\""
   },
   "author": "Chayson Media Group",

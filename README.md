@@ -20,7 +20,7 @@ npm install @chayson/type-it
 Alternatively, you can include it directly in your project using a `<script>` tag.
 
 ```html
-<script src="path/to/typeit.js"></script>
+<script src="path/to/type-it.esm.js"></script>
 ```
 
 ## Usage
